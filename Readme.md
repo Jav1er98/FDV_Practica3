@@ -35,7 +35,7 @@
   - La dirección en la que nos tenemos que mover viene determinada por la diferencia entre la posición del objetivo y nuestra posición: 
   Vector3 direction = goal.position - this.transform.position; this.transform.Translate(direction.normalized * speed * Time.deltaTime)
   
-     - Al colocar una variable Transform y que necesitamos un objetivo, añado otro cubo, al primer cubo le pasaré su transform para que se dirija, en este caso
+     - Al colocar una variable Transform y que necesitamos un objetivo, añado otro cubo, al primer cubo le pasaré el transfron del segundo para que se dirija hacia el,
      se dirige hasta estar dentro del propio cubo ya que no hemos puesto ningun tipo de accuracy.
      ![gif ejercicio 3](/gifs/Ejercicio3.gif)
      
