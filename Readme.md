@@ -1,4 +1,4 @@
-## Práctica 3: C#. Programación de Scripts
+## Práctica 3: C#. Programación de Scripts.
 ## Objetivo: Resolver los siguientes ejercicios.
 
 1. Configurar la coordenada Y del Objetivo en 0
